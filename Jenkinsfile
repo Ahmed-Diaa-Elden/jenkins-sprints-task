@@ -31,6 +31,7 @@ pipeline {
                 echo "This build number $BUILD_NUMBER"
                 echo "This build ID $BUILD_ID"
                 echo "This Branch Name: $BRANCH_NAME"
+                echo "This is agent name: $NODE_NAME"
             }
         }    
     }
